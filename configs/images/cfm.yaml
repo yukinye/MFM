@@ -1,0 +1,16 @@
+data_type: image
+data_name: afhq
+mfm: false
+batch_size: 256
+flow_lr: 0.0001
+seeds: [43]
+accelerator: gpu
+sigma: 0.01
+epochs: 8000
+ema_decay: 0.9999
+whiten: false
+check_val_every_n_epoch: 500
+dim: 1024
+sim_num_steps: 100
+t_exclude: []
+

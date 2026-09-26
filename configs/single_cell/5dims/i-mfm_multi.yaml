@@ -1,0 +1,17 @@
+data_type: "scrna"
+data_name: "multi"
+optimal_transport_method: None
+accelerator: "gpu"
+hidden_dims_geopath: [32, 32, 32]
+hidden_dims_flow: [32, 32, 32]
+dim: 5
+t_exclude: [1, 2]
+time_geopath: true
+whiten: true
+velocity_metric: "land"
+gammas: [0.05, 0.05]
+patience: 5
+rho: 0.01
+alpha_metric: 1
+mfm: true
+seeds: [42]

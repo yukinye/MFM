@@ -1,0 +1,6 @@
+data_type: "sphere"
+mfm: false
+seeds: [42]
+dim: 3
+whiten: false
+t_exclude: [1]

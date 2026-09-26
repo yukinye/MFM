@@ -1,0 +1,7 @@
+data_type: "lidar"
+data_name: "lidar"
+dim: 3
+whiten: true
+mfm: false
+seeds: [42]
+t_exclude: []

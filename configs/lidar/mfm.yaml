@@ -1,0 +1,12 @@
+data_type: "lidar"
+data_name: "lidar"
+dim: 3
+whiten: true
+t_exclude: []
+velocity_metric: "land"
+gammas: [0.125]
+rho: 0.001
+mfm: true
+seeds: [42]
+
+

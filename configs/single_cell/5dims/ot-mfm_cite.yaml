@@ -1,0 +1,16 @@
+data_type: "scrna"
+data_name: "cite"
+accelerator: "gpu"
+hidden_dims_geopath: [64, 64, 64]
+hidden_dims_flow: [64, 64, 64]
+dim: 5
+t_exclude: [1, 2]
+time_geopath: true
+whiten: true
+velocity_metric: "land"
+gammas: [0.125, 0.25]
+patience: 5
+rho: 0.001
+alpha_metric: 2
+mfm: true
+seeds: [42]

@@ -1,0 +1,27 @@
+data_type: image
+data_name: afhq
+mfm: true
+batch_size: 256
+flow_lr: 0.0001
+seeds: [43]
+accelerator: gpu
+sigma: 0.01
+epochs: 8000
+ema_decay: 0.9999
+whiten: false
+check_val_every_n_epoch: 500
+dim: 1024
+time_geopath: true
+rho: 0.0001
+geopath_lr: 0.0001
+metric_epochs: 100
+alpha_metric: 8
+unet_num_res_blocks_geopath: 2
+unet_channel_mult_geopath: [1, 1]
+unet_num_channels_geopath: 128
+unet_dropout_geopath: 0.0
+image_size: 128
+n_centers: 100
+kappa: 0.5
+sim_num_steps: 100
+t_exclude: []

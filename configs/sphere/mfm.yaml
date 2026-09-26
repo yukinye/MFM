@@ -1,0 +1,12 @@
+data_type: "sphere"
+mfm: true
+dim: 3
+seeds: [42]
+whiten: false
+t_exclude: [1]
+velocity_metric: "land"
+gammas: [0.08]
+rho: 0.0001
+alpha_metric: 0.3
+geopath_lr: 0.02
+patience_geopath: 10

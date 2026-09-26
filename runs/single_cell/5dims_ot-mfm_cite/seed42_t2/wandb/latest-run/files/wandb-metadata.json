@@ -1,0 +1,166 @@
+{
+    "os": "Linux-6.6.114.1-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+    "python": "3.11.16",
+    "heartbeatAt": "2026-09-26T00:38:46.459925",
+    "startedAt": "2026-09-26T00:38:46.378973",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--config_path",
+        "/root/metric-flow-matching-main/metric-flow-matching-main/runs/single_cell/5dims_ot-mfm_cite/seed42_t2/config.yaml",
+        "--working_dir",
+        "/root/metric-flow-matching-main/metric-flow-matching-main/runs/single_cell/5dims_ot-mfm_cite/seed42_t2"
+    ],
+    "state": "running",
+    "program": "-m mfm.train.main",
+    "codePathLocal": null,
+    "host": "gpunodeqlxibw4qwtqj1-deployment-850e5bf0ef16819e-5775bbbc8w4hbm",
+    "username": "root",
+    "executable": "/opt/conda/envs/mfm/bin/python",
+    "cpu_count": 24,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 3686.399999999999,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 3686.4,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 1006.853931427002,
+            "used": 274.6880989074707
+        }
+    },
+    "gpu": "NVIDIA GeForce RTX 5090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 5090",
+            "memory_total": 34190917632
+        }
+    ],
+    "memory": {
+        "total": 100.1991958618164
+    }
+}

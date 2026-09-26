@@ -1,0 +1,18 @@
+data_type: "scrna"
+data_name: "eb"
+optimal_transport_method: None
+accelerator: "gpu"
+hidden_dims_geopath: [32, 32, 32]
+hidden_dims_flow: [32, 32, 32]
+dim: 5
+t_exclude: [1, 2, 3]
+time_geopath: true
+whiten: true
+velocity_metric: "land"
+gammas: [0.175, 0.175, 0.175]
+patience: 5
+rho: 0.2
+alpha_metric: 1
+mfm: true
+seeds: [42]
+

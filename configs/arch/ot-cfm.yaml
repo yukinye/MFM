@@ -1,0 +1,6 @@
+data_type: "arch"
+mfm: false
+seeds: [42]
+dim: 2
+whiten: false
+t_exclude: [1]

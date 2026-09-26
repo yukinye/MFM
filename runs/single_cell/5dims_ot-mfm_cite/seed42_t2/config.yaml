@@ -1,0 +1,25 @@
+accelerator: gpu
+alpha_metric: 2
+data_name: cite
+data_type: scrna
+dim: 5
+gammas:
+- 0.25
+hidden_dims_flow:
+- 64
+- 64
+- 64
+hidden_dims_geopath:
+- 64
+- 64
+- 64
+mfm: true
+patience: 5
+rho: 0.001
+seeds:
+- 42
+t_exclude:
+- 2
+time_geopath: true
+velocity_metric: land
+whiten: true
